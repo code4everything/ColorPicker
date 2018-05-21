@@ -1,0 +1,9 @@
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\bin\Release\ColorPicker.exe
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\bin\Release\ColorPicker.pdb
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.csprojAssemblyReference.cache
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.AlphaForm.resources
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.Properties.Resources.resources
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.csproj.GenerateResource.cache
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.csproj.CoreCompileInputs.cache
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.exe
+C:\Users\潘滔\Documents\Projects\C#\ColorPicker\ColorPicker\obj\Release\ColorPicker.pdb
