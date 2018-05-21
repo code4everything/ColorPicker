@@ -15,7 +15,7 @@ namespace ColorPicker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AlphaForm());
+            Application.Run(new ColorPicker());
         }
     }
 }

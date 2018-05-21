@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace ColorPicker
 {
-    public partial class AlphaForm : Form
+    public partial class ColorPicker : Form
     {
         Point oldPoint = new Point(0, 0);
         bool mouseDown = false;
@@ -114,6 +114,10 @@ namespace ColorPicker
             {
                 CreateParams cParms = base.CreateParams;
                 cParms.ExStyle |= 0x00080000; // WS_EX_LAYERED
+                const int WS_EX_APPWINDOW = 0x40000;
+                const int WS_EX_TOOLWINDOW = 0x80;
+                cParms.ExStyle &= (~WS_EX_APPWINDOW);    // 不显示在TaskBar
+                cParms.ExStyle |= WS_EX_TOOLWINDOW;      // 不显示在Alt-Tab
                 return cParms;
             }
         }
@@ -125,7 +129,7 @@ namespace ColorPicker
             UpdateStyles();
         }
 
-        public AlphaForm()
+        public ColorPicker()
         {
             InitializeComponent();
             this.DoubleClick += new EventHandler(Form_DoubleClick);

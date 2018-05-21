@@ -1,6 +1,6 @@
 ﻿namespace ColorPicker
 {
-    partial class AlphaForm
+    partial class ColorPicker
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,7 @@
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // AlphaForm
+            // ColorPicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -46,13 +46,13 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "AlphaForm";
+            this.Name = "ColorPicker";
+            this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "AlphaForm";
+            this.Text = "ColorPicker";
             this.TopMost = true;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AlphaForm_FormClosed);
             this.Load += new System.EventHandler(this.InfoForm_Load);
-            //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AlphaForm_KeyDown);
             this.ResumeLayout(false);
 
         }

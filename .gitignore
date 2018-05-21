@@ -63,3 +63,5 @@ Temporary Items
 .nfs*
 
 .vs/*
+/ColorPicker/obj/*
+/ColorPicker/bin/*
